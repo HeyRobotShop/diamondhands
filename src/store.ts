@@ -11,7 +11,7 @@ class Store {
     this.state = initialState;
 
     console.log("debug", "🗺 Store ctx:", this);
-    window.bug = this.debug;
+    // window.bug = this.debug;
   }
 
   public set(newState) {
